@@ -1,6 +1,11 @@
+const dotenv = require('dotenv');
+dotenv.config();
+
 module.exports = {
-  // base en mongo Acardenas
+  // base en mongo Cooprofesores
   mongodb: {
-    URI: 'mongodb+srv://root:root@atlascluster.0nvevqe.mongodb.net/'
-  }  
-}
+    URI: process.env.URI
+  }
+};
+//export const URI = process.env.URI;
+//export const PORT = process.env.PORT || 3000;
