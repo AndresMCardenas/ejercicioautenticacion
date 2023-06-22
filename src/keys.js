@@ -7,5 +7,3 @@ module.exports = {
     URI: process.env.URI
   }
 };
-//export const URI = process.env.URI;
-//export const PORT = process.env.PORT || 3000;
